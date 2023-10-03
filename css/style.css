@@ -1,0 +1,496 @@
+body{
+    position: relative;
+}
+.setting-icon{
+    position: absolute;
+    top: 400px;
+    right: 0;
+    background-color: black;
+    padding: 15px 7px;
+    position: fixed;
+    cursor: pointer;
+}
+.setting-icon i{
+   color: white;
+}
+
+.home
+{
+    background-image: url(../Image/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.home .overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar
+{
+    background-color:  rgb(0, 0, 0) !important;
+
+    width: 100%;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    color: #20C997;
+}
+.home-caption
+{
+    color: white;
+    font-size: 25px;
+   
+}
+.home-caption h1{
+    font-size: 60px;
+}
+.home-caption h1::after{
+    content: '|';
+    animation-name: typing;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content: 'F|';}
+    3%{content: 'Fr|';}
+    6%{content: 'Fre|';}
+    9%{content: 'Frel|';}
+    12%{content: 'Frela|';}
+    15%{content: 'Frelan|';}
+    18%{content: 'Frelanc|';}
+    21%{content: 'Frelance|';}
+    24%{content: 'Frelancer|';}
+    27%{content: 'Frelance|';}
+    30%{content: 'Frelanc|';}
+    33%{content: 'Frelan|';}
+    36%{content: 'Frela|';}
+    39%{content: 'Frel|';}
+    42%{content: 'Fre|';}
+    45%{content: 'Fr|';}
+    48%{content: 'F|';}
+    52%{content: '|';}
+    55%{content: 'd|';}
+    58%{content: 'de|';}
+    61%{content: 'dev|';}
+    64%{content: 'deve|';}
+    67%{content: 'devel|';}
+    70%{content: 'develo|';}
+    73%{content: 'develop|';}
+    76%{content: 'develope|';}
+    79%{content: 'developer|';}
+    82%{content: '|';}
+    85%{content: 'develope|';}
+    89%{content: 'develop|';}
+    92%{content: 'develo|';}
+    96%{content: 'devel|';}
+    100%{content: 'deve|';}
+    103%{content: 'dev|';}
+    105%{content: 'de|';}
+    109%{content: 'd|';}
+    112%{content: '|';}
+}
+.home-caption .btn-home{
+    color: rgb(254, 254, 254);
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: green; 
+}
+#about .about{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.about-caption{
+    margin-top: 40px;
+   text-align: center;
+   position: relative;
+
+}
+.about-caption h1{
+  
+    font-size: 120px;
+   color: rgb(217, 216, 216);
+}
+.top-caption{
+    position: absolute;
+    top: 65px;
+    left: 45%;
+}
+.top-caption h2::after{
+    content: '';
+    background-color: green;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 80%;
+    right: 25%;
+}
+.style{
+    color: green;
+
+}
+.data{
+    margin-left: 50px;
+}
+.butt
+{
+    padding: 5px 5px;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    border: solid green ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.style-two
+{
+    color: rgb(163, 162, 162);
+}
+#What-i-do .What-i-do{
+    margin-top: 40px;
+ 
+}
+.what-i-caption 
+{
+  
+   text-align: center;
+   position: relative;
+
+}
+.what-i-caption h1{
+    font-size: 120px;
+    color: rgb(217, 216, 216);
+}
+.top-two-caption
+{
+    position: absolute;
+    top: 65px;
+    left: 45%;
+}
+.top-two-caption h2::after{
+    content: '';
+    background-color: green;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 80%;
+    right: 20%;
+}
+.style-icon
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.icon-color
+{
+    color: green;
+}
+/***Resume-section***/
+#Resume-section .Resume-section
+{
+    margin-top: 40px;
+}
+.Resume-section 
+{
+   position: relative;
+}
+.Resume-section h1{
+    text-align: center;
+    font-size: 120px;
+    color: rgb(217, 216, 216);
+}
+.Resume-caption{
+    position: absolute;
+    top: 65px;
+    left: 45%;
+}
+.Resume-caption h2::after{
+    content: '';
+    background-color: green;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    top: 80%;
+    right: 17%;
+}
+.year-section
+{
+    background-color: #20C997;
+    color: white;
+    padding: 0 3px;
+}
+.mycard
+{
+    border: solid rgb(244, 244, 244) 2px;
+    background-color: white;
+}
+
+.skills-bar{
+    background-color: rgb(223, 223, 223);
+    position: relative;
+  
+}
+.skills-percent
+{
+    background-color: #20C997;
+    position: absolute;
+    top: 0;
+    padding-left: 5px;
+}
+.font-style
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-cv
+{
+    border-color: white;
+    border: solid rgb(172, 172, 172);
+    color: black;
+    padding: 10px 10px;
+    margin-left: 37%;
+  
+}
+.btn-cv i{
+    color:  rgb(58, 58, 58);
+    padding-left: 4px;
+}
+.btn-cv:hover{
+    background-color:  #20C997;
+    color: white;
+    border: #20C997;
+    transition: all 1s;
+}
+/*portfolio-section*/
+#portfolio-section .portfolio-section
+{
+    margin-top: 40px;
+}
+.portfolio
+{
+   position: relative;
+}
+.portfolio h1{
+    text-align: center;
+    font-size: 120px;
+    color: rgb(217, 216, 216);
+}
+.portfolio-caption{
+    position: absolute;
+    top: 65px;
+    left: 45%;
+}
+.portfolio-caption h2::after{
+    content: '';
+    background-color: green;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    top: 85%;
+    right: 17%;
+}
+.nav-center ul li a{
+    color: rgb(53, 53, 53);
+}
+/*client-section*/
+#client-section .client-section
+{
+    margin-top: 40px;
+}
+.client
+{
+   position: relative;
+}
+.client h1{
+    text-align: center;
+    font-size: 120px;
+    color: rgb(217, 216, 216);
+}
+.client-caption{
+    position: absolute;
+    top: 65px;
+    left: 45%;
+}
+.client-caption h2::after{
+    content: '';
+    background-color: green;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 88%;
+    right: 20%;
+}
+/*contact-section*/
+#contact-section .contact-section
+{
+    margin-top: 40px;
+}
+.contact
+{
+   position: relative;
+}
+.contact h1{
+    text-align: center;
+    font-size: 120px;
+    color: rgb(217, 216, 216);
+}
+.contact-caption{
+    position: absolute;
+    top: 65px;
+    left: 45%;
+}
+.contact-caption h2::after{
+    content: '';
+    background-color: green;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 88%;
+    right: 20%;
+}
+.icon-style-two{
+    color: #20C997;
+    margin-right: 10px;
+}
+.form{
+   justify-content: center;
+   padding-left: 7%;
+   
+}
+.btn-contact{
+    background-color: #20C997;
+   margin-left: 40%;
+   padding: 10px 10px;
+   border: #20C997 solid;
+   color: white;
+
+}
+
+.member-photo1{
+    position:relative;
+}
+.member-caption1{
+    position: absolute;
+    top: 47px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 25%;
+    opacity: 0;
+    color: white;
+    transition:all 3s ease;
+    
+}
+.member-caption1:hover{
+    opacity: 1;
+    background-color: rgba(50, 50, 50, 0.653);
+}
+.member-photo2{
+    position:relative;
+}
+.member-caption2{
+    position: absolute;
+    top: 23px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 50%;
+    opacity: 0;
+    color: white;
+    transition:all 3s ease;
+    
+}
+.member-caption2:hover{
+    opacity: 1;
+    background-color: rgba(50, 50, 50, 0.653);
+}
+.member-photo3{
+    position:relative;
+}
+.member-caption3{
+    position: absolute;
+    top: 47px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 50%;
+    opacity: 0;
+    color: white;
+    transition:all 3s ease;
+  
+}
+.member-caption3:hover{
+    opacity: 1;
+    background-color: rgba(50, 50, 50, 0.653);
+}
+.member-photo4{
+    position:relative;
+}
+.member-caption4{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 40%;
+    opacity: 0;
+    color: white;
+    transition:all 3s ease;
+  
+}
+.member-caption4:hover{
+    opacity: 1;
+    background-color: rgba(50, 50, 50, 0.653);
+}
+.member-photo5{
+    position:relative;
+}
+.member-caption5{
+    position: absolute;
+    top: 47px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 25%;
+    opacity: 0;
+    color: white;
+    transition:all 3s ease;
+ 
+}
+.member-caption5:hover{
+    opacity: 1;
+    background-color: rgba(50, 50, 50, 0.653);
+}
+.member-photo6{
+    position:relative;
+}
+.member-caption6{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 25%;
+    opacity: 0;
+    color: white;
+    transition:all 3s ease;
+  
+}
+.member-caption6:hover{
+    opacity: 1;
+    background-color: rgba(50, 50, 50, 0.653);
+}
